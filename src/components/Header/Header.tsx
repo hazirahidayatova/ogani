@@ -9,6 +9,7 @@ import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 import Flag from "../../../public/flag.png"
 import Logo from "../../../public/logo.png"
+import LanguageToggler from '../languageToggler/LanguageToggler';
 
 export default function Header() {
   return (
@@ -26,8 +27,9 @@ export default function Header() {
                 <LinkedInIcon className='mr-[9px]' sx={{fontSize:"20px"}}/>
                 <PinterestIcon className='mr-[9px]' sx={{fontSize:"20px"}}/>
                 <div className='w-[1px] h-[25px] bg-gray-500 mx-[14px]' />
-                <img src={Flag} alt="flag" className='mr-[9px]'/>
-                <p className='font-extralight'> English</p>
+                {/* <img src={Flag} alt="flag" className='mr-[9px]'/>
+                <p className='font-extralight'> English</p> */}
+                <LanguageToggler />
                 <div className='w-[1px] h-[25px] bg-gray-500 mx-[14px]' />
                 <PersonIcon className='mr-[9px]'/>
                 <p className='font-extralight'> Login</p>
