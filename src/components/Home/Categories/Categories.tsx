@@ -1,18 +1,12 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import Photo1 from "../../../../public/photo1.jpg";
+import Photo2 from "../../../../public/photo2.jpg";
+import Photo3 from "../../../../public/photo3.jpg";
+import Photo4 from "../../../../public/photo4.jpg";
 import { Pagination, Navigation } from "swiper/modules";
-
-import { imageListClasses } from "@mui/material"
-import Photo1 from "../../../../public/photo1.jpg"
-import Photo2 from "../../../../public/photo2.jpg"
-import Photo3 from "../../../../public/photo3.jpg"
-import Photo4 from "../../../../public/photo4.jpg"
-import { Category } from "@mui/icons-material";
-
-
 
 export default function Categories() {
     const categoriesArr = [
